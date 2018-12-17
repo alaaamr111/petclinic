@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>pets</title>
+        
+        <link rel="stylesheet" href="style/style.css">
+        <script src="js/jquery-3.3.1.js"></script>
+        
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <!-- fontawesome-->
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">    
+        <link rel="stylesheet" href="style/aos/aos.css">
+        
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--<link rel="stylesheet" href=style/aos/aos.js>-->
+    </head>
+    
+    <body style="background-color: #F0EDF7 ; color: #3838BC">
+      
+      
+      <!--nav bar-->
+      <nav style="position: fixed; z-index: 5 ;top: 0; " class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img data-aos="zoom-in"  src="images/petclinic.png" class="navbar-brand" href="#" style="  margin-left: 2%; ;width: 15%;"></img>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div style=" margin-left: 5%; " class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul style="font-family: monospace ; font-size: 16" class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item " >
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+       <li class="nav-item " >
+        <a class="nav-link" href="#">About </a>
+      </li>
+        <li class="nav-item " >
+        <a class="nav-link" href="#">contact us </a>
+      </li>
+      <li class="nav-item">
+       <div class="dropdown" style="background: none;">
+  <a  class="nav-link dropdown-toggle"  id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Services
+  </a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Hospital Services</a>
+    <a class="dropdown-item" href="#">spay and neuter</a>
+    <a class="dropdown-item" href="#">Phone consulting</a>
+  </div>
+</div>
+      </li>
+       <li class="nav-item " >
+        <a class="nav-link" href="#">Care&Treatment </a>
+      </li>
+       <li class="nav-item " >
+        <a class="nav-link" href="location.html">Location </a>
+      </li>
+       <li class="nav-item active " >
+        <a class="nav-link" href="#">Boarding </a>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input data-aos="fade-in"  class="form-control mr-sm-3" type="search" placeholder="Search">
+      <button data-aos="fade-in" class="btn btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas  fa-search"></i></button>
+    </form>
+  </div>
+</nav>
+      <!--end nav-->
+             <img style="width: 100% ;  box-shadow: .5px .5px 5px; #b671f2;; z-index: -2; position: absolute " src="images/4.jpg"> 
+      
+      
+        <!--first header-->
+        <span style="position: fixed ; margin: 5px; z-index: 50 ; color: blue"> &copy ALAAAMR</span>
+
+              <h1 style=" position: absolute ;margin-left: 30%; color: #3838BC ;  "><span  style="margin: 10px; border-radius: 60px" class="badge badge-primary"><i class="fas fa-home"></i></span>BOARDING SURVICES </h1>
+            <div class=row style="margin-top: 4%; width: 100%;" id=header> 
+           <form style="width: 30%; margin: 60 100 0 450px;position: absolute ; ">
+       <center><h5 style="">ANIMAL NAME</h5></center> 
+      <input data-aos="fade-in" style="margin-bottom: 10px;" type="text" class="form-control" placeholder="name">
+       <center><h5 style="">ANIMAL TYPE</h5></center>
+       <select data-aos="fade-in" style="margin-bottom: 10px; height: 36px;" class="form-control" id="exampleFormControlSelect1">
+      <option>DOG</option>
+      <option>CAT</option>
+      <option>OTHER</option>
+    </select>
+       <center><h5 style="">ANIMAL Gender</h5></center>
+       <select data-aos="fade-in" style="margin-bottom: 10px; height: 36px;" class="form-control" id="exampleFormControlSelect1">
+      <option>Male</option>
+      <option>Female</option>
+    </select>
+             <input data-aos="fade-in" style="margin-bottom: 10px;" type="number" class="form-control" placeholder="how many days you want to board">
+          
+       <input data-aos="fade-in" style="margin-bottom: 10px;" type="text" class="form-control" placeholder="country | city ">
+       <input  data-aos="fade-in" style="margin-bottom: 10px;" type="text" class="form-control" placeholder="phone number">
+      <input  style="margin-bottom: 10px;" type="email" class="form-control" placeholder="Email">
+
+
+     <button onclick= "alert('we will call you as soon as possible ... thank you for contacting us');""
+             style="margin: 0 0 0 0 ; width: 410px;" type="submit" class="btn btn-primary">REQUEST</button>
+      </form>
+           
+            </div>
+      <!--end first header-->
+     
+     
+     
+     
+      <!--footer-->
+     <div style="width: 100% ; position: absolute ;  color: #fff ; height: 120px; background-color:#1B1B26 ; margin-top: 41%;">
+        <div style="height: 20px; background-color: #29292B;">
+                <center>
+                 <h6 style=" font-family: sans-serif ; font-size: 18px;">    copyrights &copy<span style="color: blue">ALAAAMR</span></h4>
+                </center>
+                
+        </div>
+                <div style=" position: absolute ; right: 53%; margin: 1% ; width: 360px; margin-left:  88px ; margin-bottom: 5px; padding: 2px">
+                         <label  style="margin-left: 30px;">Visit us on</label>
+               
+                      <a  href=# ><i   style="margin-left: 15px; margin-right: 15px; color: #fff; margin-top: 10px;" class="fab fa-google fa-2x"></i></a> <b>or</b> 
+                      <a   href=# ><i  style="margin-left: 15px; margin-right: 15px; color: #fff;" class="fab fa-facebook-square fa-2x"></i></a>    <b>or</b> 
+                      <a  href=# ><i  style="margin-left: 15px; color: #fff;" class="fab fa-twitter-square fa-2x"></i></a>
+                      </div>
+                           <div style="width: 50%; display: inline-block;">
+               <p style="margin: 10px;">Pet Clinic hospital / <span style="color: blue">010 222 0254</span></p>
+               <p style="margin: 10px;">Pet Clinic Mobile / <span style="color: blue">010 444 0254</span></p>
+           </div>
+            <div  style="width: 50%;  display: inline;">
+                <span style="position: absolute ; margin: 10px;"><h4>PET CLINIC CARECENTER </h4></span>
+                <span>12453 Valley View Street
+                    Garden Grove, CA 92845</span>
+               <span> <a href=location.html> GO TO LOCATION</a></span>
+            </div>
+     </div>
+     <!--end footer-->
+     
+     <script>
+   AOS.init({
+    duration:2500,
+    });
+  </script>
+    </body>
+</html>
